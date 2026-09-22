@@ -1,0 +1,29 @@
+Anything you drop in this folder appears in the moving strip on the home page.
+
+Just paste the file in. No code to edit.
+
+  Images   .jpg .jpeg .png .webp .avif .gif
+  Videos   .mp4 .mov .webm .m4v
+
+Optional, if you want more control:
+
+  Order        Files appear in filename order. Put 01- 02- 03- in front
+               of the names to arrange them.
+
+  Caption      The filename becomes the description read out by screen
+               readers, so "behind-the-scenes.jpg" reads as
+               "Behind the scenes".
+
+  Video start  Videos play a 5 second loop from the beginning. To start
+               somewhere else, put @ and the second in the name:
+               "reel@12s.mp4" plays from 0:12 to 0:17.
+
+  Video cover  Give an image the same name as the video and it becomes
+               the still shown before the video starts:
+               "reel.mp4" and "reel.jpg".
+
+Portrait and landscape both work. Tiles are all the same height and take
+their width from the shape of the file, so nothing gets cropped.
+
+Keep videos short and small - a few MB. A large camera export will be slow
+to load.

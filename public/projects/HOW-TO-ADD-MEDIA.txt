@@ -1,0 +1,36 @@
+Each project has its own folder in here, named exactly like the project's
+"slug" in src/content/projects.ts.
+
+  public/projects/northwind-launch-film/
+  public/projects/atlas-brand-system/
+  public/projects/meridian-campaign/
+  public/projects/field-notes-series/
+
+Paste images AND videos straight into the matching folder. They appear on that
+project's page, top to bottom, in filename order.
+
+  Images   .jpg .jpeg .png .webp .avif .gif
+  Videos   .mp4 .mov .webm .m4v
+
+Videos on a project page have normal play controls - they do not start by
+themselves, so a page full of them stays quiet until someone presses play.
+
+Optional, if you want more control:
+
+  Order        Prefix names with 01- 02- 03- to arrange them.
+
+  Cover        The first file is used on the project card. To choose a
+               different one, name it "cover.jpg" (or .png, .webp).
+
+  Caption      The filename becomes the caption under the media, so
+               "wide-establishing-shot.jpg" reads as
+               "Wide establishing shot".
+
+  Video cover  Give an image the same name as a video and it becomes the
+               still shown before playback: "process.mp4" and "process.jpg".
+               That image will not appear twice.
+
+Portrait and landscape both work - each file keeps its own shape.
+
+To add a whole new project: add an entry to src/content/projects.ts, then make
+a folder in here with the same name as its slug.
